@@ -4,4 +4,5 @@ print("Hello World")
 
 import pandas as pd
 
-df = pandas.DataFrame({"State": ['MI', 'WI']})
+df = pd.DataFrame({"State": ['MI', 'WI']})
+print(df.head())
