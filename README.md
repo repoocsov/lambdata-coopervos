@@ -1,5 +1,9 @@
 # lambdata-coopervos
 
+# test.pypi.org link
+```sh
+https://test.pypi.org/project/repoocsov-lambdata-coopervos/
+```
 
 ## Installation
 
