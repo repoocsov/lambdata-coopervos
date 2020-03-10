@@ -1,6 +1,8 @@
 # my_lambdata/my_mod.py
 
 # Functions
+
+
 def enlarge(n):
     '''
     Param n is a number
@@ -26,6 +28,7 @@ def return_nulls(df):
     '''
     output = df.isnull().sum()
     return print(output)
+
 
 if __name__ == "__main__":
     # Only run the code below if this script is invoked from the command-line
