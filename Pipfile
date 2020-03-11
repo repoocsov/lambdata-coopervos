@@ -4,12 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
-twine = "*"
-autopep8 = "*"
 
 [packages]
-pandas = "*"
+repoocsov-lambdata-coopervos = {index = "https://test.pypi.org/simple/",version = "*"}
 
 [requires]
 python_version = "3.7"

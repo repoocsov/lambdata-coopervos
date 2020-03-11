@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="repoocsov-lambdata-coopervos",
-    version="1.1",
+    version="3.0",
     author="Cooper Vos",
     author_email="coopervos1@gmail.com",
     description="For example purposes",
