@@ -18,7 +18,7 @@ cd path/to/your_project
 pip install -i https://test.pypi.org/simple/ repoocsov-lambdata-coopervos
 from repoocsov_lambdata_coopervos import my_lambdata
 from my_lambdata.pizza import Pizza
-from my_lambdata.pizza import Food
+from my_lambdata.food import Food
 ```
 
 ## Usage
