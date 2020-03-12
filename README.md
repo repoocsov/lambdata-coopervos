@@ -5,30 +5,29 @@
 https://test.pypi.org/project/repoocsov-lambdata-coopervos/
 ```
 
-## Installation
-
-```sh
-cd path/to/lambdata-coopervos
-
-(pip or pipenv)
-pip install -i https://test.pypi.org/simple/ repoocsov-lambdata-coopervos
-```
-
 Install package dependencies:
 
 ```sh
 pipenv install pandas
 ```
 
+## Installation
+
+```sh
+cd path/to/your_project
+pip install -i https://test.pypi.org/simple/ repoocsov-lambdata-coopervos
+from repoocsov_lambdata_coopervos import my_lambdata
+from my_lambdata.pizza import Pizza
+from my_lambdata.pizza import Food
+```
+
 ## Usage
 
 Example Usage:
 ```sh
-from my_lambdata.pizza import Pizza
 pizza = Pizza()
 pizza.message
 
-from my_lambdata.food import Food
 food = Food()
 food._store
 ```
