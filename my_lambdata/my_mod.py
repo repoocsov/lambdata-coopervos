@@ -1,7 +1,5 @@
 # my_lambdata/my_mod.py
 
-# Functions
-
 
 def enlarge(n):
     '''
@@ -31,9 +29,6 @@ def return_nulls(df):
 
 
 if __name__ == "__main__":
+    pass
     # Only run the code below if this script is invoked from the command-line
     # not if it is imported from another
-
-    print("")
-    # y = int(input('Please choose a number'))
-    # print(y, enlarge(y))

@@ -1,10 +1,15 @@
+# my_lambdata/food.py
+
 class Food:
     """
     Food object
     """
 
     def __init__(self):
-        store = input("Where are you getting this pizza from?")
+        if __name__ == '__main__':
+            store = input("Where are you getting this pizza from?")
+        else:
+            store = "Pizza Hut"
         taste = "Delicious"
         self._store = store
         self._taste = taste

@@ -1,5 +1,7 @@
 # my_lambdata/pizza.py
+
 from .food import Food
+
 
 class Pizza(Food):
     """
@@ -13,13 +15,16 @@ class Pizza(Food):
         toppings = ['cheese']
         response = 1
         while response == 1:
-            topping = input("What topping would you like to add to your pizza?")
-            toppings.append(topping)
-            response = int(input("Add another topping?\n0) No\n1) Yes"))
+            if __name__ == '__main__':
+                topping = input(
+                    "What topping would you like to add to your pizza?")
+                toppings.append(topping)
+                response = int(input("Add another topping?\n0) No\n1) Yes"))
+            else:
+                response = 0
 
         self._toppings = toppings
-        self._price = 5.88 + (2.00 * len(toppings))
-        
+        self._price = 5.88 + (2 * len(toppings))
 
     @property
     def message(self):
@@ -31,6 +36,9 @@ class Pizza(Food):
             #     x += topping + " "
             x += topping + ", "
 
-        return print('The toppings for this pizza are ', x, '\n\n', 'This pizza is from', super().store,
-        " and it's", super().taste, "\n\nPrice:", self._price)
-
+        return print('-------------------------------------------------------\n',
+                     '-------------------------------------------------------\n',
+                     'The toppings for this pizza are ', x, '\n\n', 'This pizza is from', super().store,
+                     " and it's", super().taste, "\n\nPrice:", self._price,
+                     '-------------------------------------------------------\n',
+                     '-------------------------------------------------------\n')

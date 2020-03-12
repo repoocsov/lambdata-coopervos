@@ -1,6 +1,6 @@
 # lambdata-coopervos
 
-# test.pypi.org link
+# Link to downloadable repository
 ```sh
 https://test.pypi.org/project/repoocsov-lambdata-coopervos/
 ```
@@ -9,17 +9,26 @@ https://test.pypi.org/project/repoocsov-lambdata-coopervos/
 
 ```sh
 cd path/to/lambdata-coopervos
+
+(pip or pipenv)
+pip install -i https://test.pypi.org/simple/ repoocsov-lambdata-coopervos
 ```
 
 Install package dependencies:
 
 ```sh
-pipenv install
+pipenv install pandas
 ```
 
 ## Usage
 
-An example script, not what people will use when they install our package, just an example:
+Example Usage:
 ```sh
-python my_lambdata/my_Scripts.py
+from my_lambdata.pizza import Pizza
+pizza = Pizza()
+pizza.message
+
+from my_lambdata.food import Food
+food = Food()
+food._store
 ```

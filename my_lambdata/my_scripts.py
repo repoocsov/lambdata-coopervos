@@ -1,4 +1,4 @@
-# my_lambdata/my_scripts.py 
+# my_lambdata/my_scripts.py
 
 import pandas as pd
 from my_lambdata.my_mod import enlarge
@@ -7,8 +7,5 @@ from my_lambdata.pizza import Pizza
 # Creating a Pizza object
 pizza = Pizza()
 
-print('-------------------------------------------------------')
-print('-------------------------------------------------------')
+# Calling the Pizza object method 'message'
 pizza.message
-print('-------------------------------------------------------')
-print('-------------------------------------------------------')
