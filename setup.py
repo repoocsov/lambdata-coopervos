@@ -10,11 +10,11 @@ setup(
     version="3.0",
     author="Cooper Vos",
     author_email="coopervos1@gmail.com",
-    description="For example purposes",
+    description="This is a project for learning purposes",
     long_description=long_description,
     long_description_content_type="text/markdown",
     # required if using a md file for long desc
-    # license="MIT",
+    license="MIT",
     url="https://github.com/repoocsov/lambdata-coopervos",
     # keywords="",
     packages=find_packages()  # ["my_lambdata"]
